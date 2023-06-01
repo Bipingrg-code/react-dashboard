@@ -1,0 +1,30 @@
+.sidebar {
+    flex: 2;
+    border-right: 0.5px solid rgb(230, 277, 277);
+    min-height: 100vh;
+    background-color: white;
+    .top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+      
+    }
+    img {
+        height: 100%;
+    }
+    .title {
+        color: #2BB8D6;
+        // font-family: 'Horndon Becker';
+        font-size: 28px;
+        font-weight: bolder;
+    }
+    .center{
+        padding-left: 4px;
+        ul{
+            list-style: none;
+            margin: 0;
+           
+        }
+    }
+}
